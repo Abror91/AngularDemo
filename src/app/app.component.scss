@@ -1,0 +1,60 @@
+/************** NAVIGATION *******************/
+#navigation-wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #00A591;
+    height: 100px;
+}
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    width:1000px;
+    align-items: center;
+    color: #ffffff;
+    font-size:20px;
+}
+.nav-item:hover, nav-item:active{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#auth-links{
+    display:flex;
+    justify-content: space-between;
+}
+.signup{
+    margin-left: 25px;
+}
+#main-nav{
+    display: flex;
+    width:500px;
+    justify-content: space-between;
+}
+
+/*********** Main content wrapper ****************/
+
+#main-content-wrapper{
+    padding: 25px 50px;
+}
+
+/**********************ABOUT ****************/
+// .about-wrapper{
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+// }
+// .about{
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+// }
+// .about-item{
+//     flex:1;
+//     height: 100px;
+//     border:1px solid #ffffff;
+//     background-color: #2E4A62;
+// }
+// .about-second{
+//     flex:2;
+// }

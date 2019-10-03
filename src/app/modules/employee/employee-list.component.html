@@ -1,0 +1,18 @@
+<div class="main-wrapper">
+    <div class="header-wrapper">
+        <div class="id-style">ID</div>
+        <div class="first-name-style">fullName</div>
+        <div class="about-style">About</div>
+        <div class="job-start-date-style">Job Start Date</div>
+        <div class="country-style">Country</div>
+    </div>
+    <div class="list-wrapper">
+        <div class="list-item" *ngFor="let emp of employees">
+            <div class="id-style">{{emp.id}}</div>
+            <div class="first-name-style">{{ emp.fullName }}</div>
+            <div class="about-style">{{ emp.about }}</div>
+            <div class="job-start-date-style">{{ emp.jobStartDate | date }}</div>
+            <div class="country-style">{{ emp.country }}</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+employee-list{
+    .main-wrapper{
+        width:100%;
+    }
+    .header-wrapper{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        border-top:1px solid grey;
+    }
+    .header-wrapper > div{
+        border-left:1px solid grey;
+        border-bottom:1px solid grey;
+        padding: 10px 15px;
+    }
+    .list-item{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    .list-item > div{
+        border-left:1px solid grey;
+        border-bottom:1px solid grey;
+        padding: 10px 15px;
+    }
+    .first-name-style,
+    .job-start-date-style,
+    .country-style
+    {
+        width:20%;
+    }
+    .about-style{
+        width:30%;
+    }
+    .id-style{
+        width:10%;
+    }
+    .country-style{
+        border-right:1px solid grey;
+    }
+}
